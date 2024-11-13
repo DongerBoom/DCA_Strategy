@@ -1,6 +1,6 @@
 import akshare as ak
 from datetime import datetime
-from config import GROSS_PRICE_DEC, SINGLE_PRICE_DEC
+from config import GROSS_PRICE_DEC, SINGLE_PRICE_DEC, MONTHLY_INVESTMENT_DAY, MONTHLY_INVESTMENT_HOUR
 
 def get_recent_fund_data(fund_code):
     """获取基金最近的净值数据"""
@@ -24,4 +24,4 @@ def check_fund_conditions(fund_data):
 def is_monthly_notification_time():
     """检查是否是每月定投提醒时间"""
     now = datetime.now()
-    return now.day == 25 and now.hour == 8 
+    return now.day == MONTHLY_INVESTMENT_DAY and now.hour == MONTHLY_INVESTMENT_HOUR

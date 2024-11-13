@@ -15,3 +15,7 @@ ERROR_HISTORY_FILE = 'error_history.json'
 # 每日汇总配置
 DAILY_SUMMARY_HOUR = 20  # 每晚8点发送汇总
 DAILY_SUMMARY_FILE = 'daily_summary.json'
+
+# 定投警报最晚触发时间配置
+MONTHLY_INVESTMENT_DAY = 25    # 每月几号
+MONTHLY_INVESTMENT_HOUR = 8    # 几点（24小时制）
