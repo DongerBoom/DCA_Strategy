@@ -4,7 +4,7 @@ GROSS_PRICE_DEC = 0.05  # 总跌幅阈值
 SINGLE_PRICE_DEC = 0.01  # 单日跌幅阈值
 
 # 通知相关配置
-PUSHPLUS_TOKEN = 'dbea559487be49bda9d44abcbdc378a4'
+PUSHPLUS_TOKEN = ''
 SEND_NORMAL_STATUS = False  # 控制是否发送正常状态的通知
 ERROR_THRESHOLD = 5  # 连续错误阈值
 
